@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "isolated_browser": true,
+  "input": "public pseudonymized demo",
+  "metrics": [
+    "9,125",
+    "146",
+    "76",
+    "4"
+  ],
+  "pages_rendered": [
+    "overview",
+    "alert_detail",
+    "session_explorer"
+  ],
+  "screenshots": [
+    "assets/overview.png",
+    "assets/case-detail.png",
+    "assets/session-explorer.png"
+  ]
+}

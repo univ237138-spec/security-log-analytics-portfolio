@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "checks": 350,
+  "categories": [
+    "row conservation",
+    "key integrity",
+    "past-only session history",
+    "score reconciliation",
+    "baseline variants",
+    "demo identifiers"
+  ],
+  "inputs_sha256": {
+    "audit_raw.csv": "cf3bd5365442780423bb290717b3046c183f280a3effc85865616a1b04f7df8c",
+    "nginx_raw.csv": "c9338ea84efcbc477dd4f874769510cd7666993777d3385c0d15bb5cd38290ab",
+    "sshd_raw.csv": "7e752bf175168341fd8fa68828631cd2dcef9d4007c95596a1e89f0ec38e2c48",
+    "sysmon_raw.csv": "d5279554d6ef6496d9fce6457471348e7002ea5332694d11819b8010b3b595ec"
+  }
+}

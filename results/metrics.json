@@ -1,0 +1,43 @@
+{
+  "input": "public pseudonymized demo; identifier changes preserve sequence and relationships",
+  "raw_rows": {
+    "sshd": 1364,
+    "nginx": 2223,
+    "sysmon": 5082,
+    "audit": 456
+  },
+  "events": 9125,
+  "sessions": 146,
+  "signals": 76,
+  "alert_sessions": 4,
+  "alert_ids": [
+    "S122",
+    "S132",
+    "S137",
+    "S142"
+  ],
+  "baseline_variants": [
+    {
+      "variant": "V0",
+      "label": "현재 (peer)",
+      "behavior_signals": "21",
+      "normal_sessions_flagged": "7",
+      "alert_count": "4"
+    },
+    {
+      "variant": "V1",
+      "label": "peer 제거 (global)",
+      "behavior_signals": "18",
+      "normal_sessions_flagged": "4",
+      "alert_count": "4"
+    },
+    {
+      "variant": "V2",
+      "label": "시간만 global",
+      "behavior_signals": "19",
+      "normal_sessions_flagged": "5",
+      "alert_count": "4"
+    }
+  ],
+  "interpretation": "Exploratory investigation priority, not independently measured detection accuracy."
+}
